@@ -19,11 +19,11 @@ public class TestListAdapter extends RecyclerView.Adapter<TestListAdapter.TestHo
 
     private final int STATE_UNKNOW = -1;
 
-    private final int STATE_NOT_OVERFLOW = 1;
+    private final int STATE_NOT_OVERFLOW = 1; //文本行数不超过限定行数
 
-    private final int STATE_COLLAPSED = 2;
+    private final int STATE_COLLAPSED = 2; //文本行数超过限定行数,处于折叠状态
 
-    private final int STATE_EXPANDED = 3;
+    private final int STATE_EXPANDED = 3; //文本行数超过限定行数,被点击全文展开
 
     private SparseArray<Integer> mTextStateList;
 
