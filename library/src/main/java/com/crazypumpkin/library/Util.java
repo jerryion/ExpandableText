@@ -1,4 +1,4 @@
-package com.crazypumpkin.expandabletext;
+package com.crazypumpkin.library;
 
 /**
  * Created by CrazyPumPkin on 16/8/2.
